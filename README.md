@@ -14,4 +14,5 @@
 - Download the backend and front_end folders from github and unzip them
 - Open the backend folder as an existing project in your IDE and in order to start the projects go to main/java/employees/EmployeesApplication and run the project
 - Open the frontend folder in Terminal and execute npm install and npm start
-- - That should open a window on your browser and if the spring server is also working you can use the application
+- That should open a window on your browser and if the spring server is also working you can use the application
+- Important: if the file is not supported, not structured the way the application wants and the Import is exected the browser page will become white and you will need to reload it. (There is an example .csv file in the backend resources that can be used as an example for what the app wants)

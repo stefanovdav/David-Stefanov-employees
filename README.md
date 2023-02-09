@@ -7,6 +7,9 @@
     EmpID, ProjectID, DateFrom, DateTo (there are no headers to the columns)
 - Displays a table with the projects and time worked of the two employees who have collaborated
     the most overall
+    
+## Example
+![Image](https://i.postimg.cc/VvKxTSm9/Employees.png)
 
 ## How to start the application
 

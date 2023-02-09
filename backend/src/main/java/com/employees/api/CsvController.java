@@ -1,6 +1,6 @@
 package com.employees.api;
 
-import com.employees.core.models.Response;
+import com.employees.exception.Response;
 import com.employees.core.service.CSVService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

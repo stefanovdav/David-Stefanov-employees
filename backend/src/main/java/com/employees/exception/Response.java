@@ -1,4 +1,4 @@
-package com.employees.core.models;
+package com.employees.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

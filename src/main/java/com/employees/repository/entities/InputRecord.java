@@ -1,22 +1,19 @@
-package com.core.models;
+package com.employees.repository.entities;
 
 import com.opencsv.bean.CsvBindByPosition;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
-
-public class Employee {
+@NoArgsConstructor
+public class InputRecord {
 	@CsvBindByPosition(position = 0)
 	private String id;
 	@CsvBindByPosition(position = 1)
 	private String projectId;
 	@CsvBindByPosition(position = 2)
-	private String dateFrom;
+	private String startDate;
 	@CsvBindByPosition(position = 3)
-	private String dateTo;
+	private String endDate;
 }
